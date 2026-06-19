@@ -1,0 +1,6 @@
+{
+  "name": "Pranic Healing Training",
+  "description": "A premium, fully responsive educational platform and workshop registration landing page for Pranic Healing practitioners.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

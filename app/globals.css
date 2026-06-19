@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-indigo: #1E1B4B;
+  --color-secondary-purple: #5B21B6;
+  --color-accent-teal: #0F766E;
+  --color-accent-emerald: #10B981;
+  --color-gold: #D4AF37;
+  --color-ivory: #FAF8F3;
+  --color-text-main: #2D2A4A;
+
+  --font-serif: var(--font-serif), ui-serif, Georgia, Cambria, serif;
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Custom background pattern and fine-tuned utility shadows following Clean Minimalism */
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-text-main);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Clean transparent minimal border lines */
+.minimal-border {
+  border: 1px solid rgba(30, 27, 75, 0.08);
+}
+
+.minimal-border-b {
+  border-bottom: 1px solid rgba(30, 27, 75, 0.08);
+}
+
+.minimal-border-t {
+  border-top: 1px solid rgba(30, 27, 75, 0.08);
+}
+
+/* Clean Minimalism Auras (emerald/purple/gold/teal refined blend) */
+.ambient-aura-indigo {
+  background: radial-gradient(circle at center, rgba(91, 33, 182, 0.08) 0%, rgba(30, 27, 75, 0.03) 50%, rgba(250, 248, 243, 0) 70%);
+  filter: blur(40px);
+}
+
+.ambient-aura-teal {
+  background: radial-gradient(circle at center, rgba(16, 185, 129, 0.08) 0%, rgba(15, 118, 110, 0.03) 50%, rgba(250, 248, 243, 0) 70%);
+  filter: blur(40px);
+}
+
+.ambient-aura-gold {
+  background: radial-gradient(circle at center, rgba(212, 175, 55, 0.06) 0%, rgba(212, 175, 55, 0.01) 60%, rgba(250, 248, 243, 0) 80%);
+  filter: blur(30px);
+}
+
+.ambient-aura-hybrid {
+  background: radial-gradient(circle at center, rgba(16, 185, 129, 0.12) 0%, rgba(91, 33, 182, 0.08) 40%, rgba(212, 175, 55, 0.04) 70%, transparent 100%);
+  filter: blur(50px);
+}
+
+/* Highly polished minimalist glassmorphism card */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 16px 40px -10px rgba(30, 27, 75, 0.04), 0 0 0 1px rgba(30, 27, 75, 0.02);
+}
+
+.glassmorphism-dark {
+  background: rgba(30, 27, 75, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 24px 60px -15px rgba(0, 0, 0, 0.3);
+}
+
+/* Clean scrollbar custom styles for beautiful scrolling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F3;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(30, 27, 75, 0.15);
+  border-radius: 999px;
+  border: 2px solid #FAF8F3;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(30, 27, 75, 0.25);
+}
