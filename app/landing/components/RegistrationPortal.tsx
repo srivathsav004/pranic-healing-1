@@ -88,9 +88,9 @@ export const RegistrationPortal: React.FC = () => {
           <div className="lg:col-span-5 space-y-6 pt-2">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/10 backdrop-blur-sm">
               <Sparkle className="w-3.5 h-3.5 text-gold" />
-              <span className="text-[10px] uppercase tracking-widest text-[#D4AF37] font-semibold">
+              {/* <span className="text-[10px] uppercase tracking-widest text-[#D4AF37] font-semibold">
                 RESERVE YOUR ENERGY SEAT
-              </span>
+              </span> */}
             </div>
 
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-white font-normal leading-tight">

@@ -11,9 +11,9 @@ export const FAQ: React.FC = () => {
     <section className="py-20 md:py-28 bg-white relative" id="faq">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="text-center space-y-4 max-w-3xl mx-auto mb-16" id="faq-title">
-          <span className="text-xs font-semibold tracking-widest text-accent-teal uppercase bg-teal-50 px-3 py-1 rounded-full">
+          {/* <span className="text-xs font-semibold tracking-widest text-accent-teal uppercase bg-teal-50 px-3 py-1 rounded-full">
             Common Inquiries
-          </span>
+          </span> */}
           <h2 className="text-3xl md:text-4xl font-serif text-primary-indigo font-normal">
             Frequently Asked Questions
           </h2>

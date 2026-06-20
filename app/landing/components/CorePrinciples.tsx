@@ -9,9 +9,9 @@ export const CorePrinciples: React.FC = () => {
     <section className="py-20 md:py-28 bg-ivory relative" id="principles">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 max-w-3xl mx-auto mb-16" id="principles-title">
-          <span className="text-xs font-semibold tracking-widest text-accent-teal uppercase bg-teal-50 px-3 py-1 rounded-full">
+          {/* <span className="text-xs font-semibold tracking-widest text-accent-teal uppercase bg-teal-50 px-3 py-1 rounded-full">
             Foundational Science
-          </span>
+          </span> */}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-primary-indigo font-normal">
             The Laws That Govern Energetic Restoration
           </h2>
@@ -41,9 +41,9 @@ export const CorePrinciples: React.FC = () => {
                 />
 
                 <div className="space-y-6 relative z-10">
-                  <div className={`w-12 h-12 rounded-full ${principle.bgLight} flex items-center justify-center`}>
+                  {/* <div className={`w-12 h-12 rounded-full ${principle.bgLight} flex items-center justify-center`}>
                     <IconComp className={`w-6 h-6 ${principle.accent}`} />
-                  </div>
+                  </div> */}
 
                   <div>
                     <h3 className="font-serif text-xl md:text-2xl font-light text-primary-indigo mb-2">

@@ -8,9 +8,9 @@ export const WhatIsPranicHealing: React.FC = () => {
     <section className="py-20 md:py-28 bg-white border-y border-primary-indigo/5 relative" id="what-is-pranic">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 max-w-3xl mx-auto mb-16" id="what-is-title-block">
-          <span className="text-xs font-semibold tracking-widest text-secondary-purple uppercase bg-violet-50 px-3 py-1 rounded-full">
+          {/* <span className="text-xs font-semibold tracking-widest text-secondary-purple uppercase bg-violet-50 px-3 py-1 rounded-full">
             Systematic Energy Medicine
-          </span>
+          </span> */}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-primary-indigo font-normal">
             A Highly Developed, Tested Method of Healing
           </h2>

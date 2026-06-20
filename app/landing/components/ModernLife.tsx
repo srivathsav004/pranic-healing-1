@@ -42,9 +42,9 @@ export const ModernLife: React.FC = () => {
 
           {/* Content text block on right */}
           <div className="lg:col-span-7 space-y-6">
-            <span className="text-xs font-semibold tracking-widest text-accent-teal uppercase bg-teal-50 px-3 py-1 rounded-full">
+            {/* <span className="text-xs font-semibold tracking-widest text-accent-teal uppercase bg-teal-50 px-3 py-1 rounded-full">
               Universal Principles
-            </span>
+            </span> */}
             <h2 className="text-3xl md:text-4xl font-serif text-primary-indigo font-normal leading-tight">
               Ancient Wisdom Redefined for the Demands of Today
             </h2>
