@@ -25,8 +25,8 @@ export const PranicHealingLandingPage: React.FC = () => {
       <Hero />
       <WhatIsPranicHealing />
       <CorePrinciples />
-      <Curriculum />
-      <ModernLife />
+      {/* <Curriculum /> */}
+      {/* <ModernLife /> */}
       <FounderBio />
       <ReadingList />
       <Benefits />
