@@ -59,12 +59,12 @@ export const Header: React.FC = () => {
             >
               Core Principles
             </button>
-            <button
+            {/* <button
               onClick={() => handleScrollToId('curriculum')}
               className="text-sm font-medium text-slate-600 hover:text-primary-indigo transition-colors cursor-pointer"
             >
               The Curriculum
-            </button>
+            </button> */}
             <button
               onClick={() => handleScrollToId('choa-kok-sui')}
               className="text-sm font-medium text-slate-600 hover:text-primary-indigo transition-colors cursor-pointer"
